@@ -98,7 +98,10 @@ document.addEventListener("DOMContentLoaded", () => {
     // Teams
 
     const teams=[
-        {name:"Nzubechukwu onodika",regno:"Ns/Csc/22/7697"}]
+        {name:"Nzubechukwu onodika",regno:"Ns/Csc/22/7697"},
+        {name:"Jane",regno:"NS/csc/22/3484"}
+    
+    ]
     let team_main=document.querySelector(".teams")
     console.log(team_main)
     let li =document.createElement("li")

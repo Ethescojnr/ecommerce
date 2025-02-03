@@ -96,16 +96,20 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
     // Teams
-
-    const teams=[
-        {name:"Nzubechukwu onodika",regno:"Ns/Csc/22/7697"}]
-    let team_main=document.querySelector(".teams")
-    console.log(team_main)
-    let li =document.createElement("li")
-    teams.forEach(name=>{
-        li.innerHTML=`${name.name} <br/>${name.regno}`
-        team_main.appendChild(li)
-    })
+    const teams = [
+        { name: "Nzubechukwu Onodika", regno: "Ns/Csc/22/7697" },
+        { name: "", regno: "" }
+    ];
+    
+    let team_main = document.querySelector(".teams");
+    console.log(team_main);
+    
+    teams.forEach(team => {
+        let li = document.createElement("li");
+        li.innerHTML = `${team.name} <br/>${team.regno}`;
+        team_main.appendChild(li);
+    });
+    
     
 
 });

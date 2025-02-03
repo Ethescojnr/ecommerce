@@ -130,3 +130,8 @@ button:hover {
 .teams  li{
     list-style-type: none;
 }
+.teams{
+display: flex;
+flex-direction: column-reverse;
+gap: 10px;
+}

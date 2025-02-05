@@ -98,10 +98,11 @@ document.addEventListener("DOMContentLoaded", () => {
     // Teams
     const teams = [
         { name: "Nzubechukwu Onodika", regno: "Ns/Csc/22/7697" },
-        { name: "", regno: "" }
+        { name: "Daniel Franklin Chimdindu", regno: "Ns/Csc/22/7504" },
+        {name: "Ezeokeke Chikamso" ,regno:"Ns/csc/22/7432"},
     ];
     
-    let team_main = document.querySelector(".teams");
+     let team_main = document.querySelector(".teams");
     console.log(team_main);
     
     teams.forEach(team => {
